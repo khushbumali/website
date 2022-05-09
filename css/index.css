@@ -399,6 +399,20 @@
     transition: all .3s ease-in-out;
 }
 
+
+.align-center{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.align-center h1{
+    font-size: 2rem;
+}
+
+
 .prakydo-web{
     border-color: var(--primcolor);
     color: var(--primcolor);
