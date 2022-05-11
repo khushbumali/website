@@ -449,7 +449,7 @@
 .company{
     margin: 1rem;
     width: 14rem;
-    height: 16rem;
+    height: 14rem;
     padding: .75rem;
     background: #FFF;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
@@ -546,6 +546,9 @@
         width: 90vw;
     }
 
+    .data-wrapper{
+        padding: 1rem;
+    }
     .data-wrapper, .data-btn-wrapper{
         flex-direction: column;
     }
@@ -555,5 +558,15 @@
     }
     .prakydo-insta{
         margin-top: 1rem;
+    }
+
+    .align-center{
+        text-align: center;
+    }
+    .align-center h1{
+        font-size: 1.25rem;
+    }
+    .align-center h3{
+        font-size: .9rem;
     }
 }
