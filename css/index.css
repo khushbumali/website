@@ -449,7 +449,7 @@
 .company{
     margin: 1rem;
     width: 14rem;
-    height: 14rem;
+    height: auto;
     padding: .75rem;
     background: #FFF;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
@@ -547,6 +547,7 @@
     }
 
     .data-wrapper{
+        width: 90vw;
         padding: 1rem;
     }
     .data-wrapper, .data-btn-wrapper{
