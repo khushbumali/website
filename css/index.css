@@ -373,6 +373,13 @@
 .flip{
     flex-direction: row-reverse;
 }
+.data-full{
+    width: 100%;
+}
+.data-full h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
 .data-large{
     width: 70%;
 }
@@ -398,6 +405,12 @@
     width: 200px;
 }
 .data-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     color: darkslategray;
 }
 .data-btn-wrapper{
@@ -482,6 +495,84 @@
 }
 
 
+.kmali{
+    position: relative;
+    width: 240px;
+    height: auto;
+}
+form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-row{
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-column{
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+label{
+    color: darkslategray;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+input{
+    padding: 1rem;
+    width: 480px;
+    font-size: 1rem;
+    border-radius: 28px;
+    background: aqua;
+    border: none;
+    outline: none;
+}
+textarea{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    padding: 1rem;
+    background: aqua;
+    border: none;
+    font-size: 1rem;
+    border-radius: 24px;
+    outline: none;
+    resize: none;
+}
+.submit-btn{
+    position: relative;
+    margin: 0 auto;
+    width: 160px;
+    padding: .75rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    font-size: 1rem;
+    background: none;
+    border: 2px solid var(--primcolor);
+    color: var(--primcolor);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.submit-btn:hover{
+    background: var(--primcolor);
+    color: #FFF;
+}
 
 
 
@@ -529,6 +620,10 @@
         bottom: -4rem;
     }
 
+    .hero-card{
+        width: 100%;
+    }
+
     .card-wrapper{
         padding: 2rem 1rem;
     }
@@ -569,5 +664,19 @@
     }
     .align-center h3{
         font-size: .9rem;
+    }
+
+    .form-row{
+        flex-direction: column;
+    }
+    .form-column{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .submit-btn{
+        width: 100%;
     }
 }
